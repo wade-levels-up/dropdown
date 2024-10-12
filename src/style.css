@@ -13,4 +13,23 @@
 body {
   width: 100vw;
   height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.head-nav-menu {
+  display: flex;
+  gap: 20px;
+  background-color: red;
+  padding: 20px;
+}
+
+.head-nav-menu div {
+  border: 2px solid blue;
+  padding: 5px;
 }
